@@ -21,7 +21,7 @@ public class Main {
             userQueue.add(Integer.parseInt(br.readLine()));
         }
 
-        //출마한 후보가 1명일 때
+        // 출마한 후보가 1명일 때
         if (userCnt == 1) {
             System.out.println(buyVoteCnt);
             return;
